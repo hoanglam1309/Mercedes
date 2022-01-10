@@ -1103,6 +1103,9 @@ h6 {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
+  .vehicles {
+    min-height: 100vh;
+  }
   .welcome-btn {
     padding: 5px 12px;
     width: 100%;
