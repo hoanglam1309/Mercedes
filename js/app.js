@@ -117,3 +117,6 @@ $(document).ready(function () {
     }
   });
 });
+$('a.nav-link-vehicles[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+  document.querySelector(".menuBottom").style.display = "none";
+});
