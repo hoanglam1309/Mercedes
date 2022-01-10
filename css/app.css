@@ -795,11 +795,6 @@ h6 {
   flex-wrap: wrap;
   margin-bottom:30px;
 }
-.footer .contact-list .contact-item--last {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
 .footer .footer-lang {
   font-size: 1.6rem;
 }
@@ -938,6 +933,11 @@ h6 {
     display: flex;
     flex-wrap: wrap;
   }
+  .footer .contact-list .contact-item--last {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 }
 @media screen and (max-width: 1023.98px) {
   .header .navbar-brand {
