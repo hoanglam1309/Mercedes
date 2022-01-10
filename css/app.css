@@ -736,54 +736,7 @@ h6 {
   outline: none;
 }
 /*# sourceMappingURL=style.css.map */
-@media screen and (max-width: 1279.98px) {
-  .slider {
-    padding-top: 80px;
-  }
-  .slider.no-padding {
-    padding-top: 0;
-  }
-  .slider-item {
-    height: 520px;
-  }
-  .slider-item img {
-    height: 100%;
-    object-fit: fill;
-  }
-  .slider-heading {
-    margin-top: 40px;
-  }
-  .slider-desc {
-    margin-top: 0;
-  }
-  .slider-content {
-    margin-left: 65px;
-    left: 65px;
-  }
-  .slider .slick-arrow {
-    top: 260px;
-  }
-  .search-main {
-    max-width: 880px;
-  }
-  .welcome-list {
-    max-width: 700px;
-  }
-  .vehicles-list {
-    top: 60%;
-  }
-  .vehicles .closehome {
-    position: unset;
-    display: none;
-  }
-  .project .project__items {
-    width: 50%;
-  }
-  .project .grid {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
+
 
 /* FOOTER */
 .wrapper-bottom {
@@ -855,6 +808,12 @@ h6 {
   justify-content: flex-end;
   gap: 0 20px;
   flex-wrap: wrap;
+  margin-bottom:30px;
+}
+.footer .contact-list .contact-item--last {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .footer .footer-lang {
   font-size: 1.6rem;
@@ -946,6 +905,55 @@ h6 {
 .menuBottom-item i {
   font-size: 2.2rem;
 }
+
+@media screen and (max-width: 1279.98px) {
+  .slider {
+    padding-top: 80px;
+  }
+  .slider.no-padding {
+    padding-top: 0;
+  }
+  .slider-item {
+    height: 520px;
+  }
+  .slider-item img {
+    height: 100%;
+    object-fit: fill;
+  }
+  .slider-heading {
+    margin-top: 40px;
+  }
+  .slider-desc {
+    margin-top: 0;
+  }
+  .slider-content {
+    margin-left: 65px;
+    left: 65px;
+  }
+  .slider .slick-arrow {
+    top: 260px;
+  }
+  .search-main {
+    max-width: 880px;
+  }
+  .welcome-list {
+    max-width: 700px;
+  }
+  .vehicles-list {
+    top: 60%;
+  }
+  .vehicles .closehome {
+    position: unset;
+    display: none;
+  }
+  .project .project__items {
+    width: 50%;
+  }
+  .project .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 @media screen and (max-width: 1023.98px) {
   .header .navbar-brand {
     gap: 30px;
@@ -1020,6 +1028,9 @@ h6 {
   }
   .wrapper-bottom h3 {
     font-size: 2.6rem;
+  }
+  .footer .contact-list {
+    justify-content: flex-start;
   }
 }
 @media screen and (max-width: 767.98px) {
